@@ -16,4 +16,10 @@ public class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
         Assert.assertEquals("Fizz", fizzBuzz.convert(3));
     }
+
+    @Test
+    public void testBuzz() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        Assert.assertEquals("Buzz", fizzBuzz.convert(5));
+    }
 }
