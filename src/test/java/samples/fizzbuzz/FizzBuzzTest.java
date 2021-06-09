@@ -22,4 +22,10 @@ public class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
         Assert.assertEquals("Buzz", fizzBuzz.convert(5));
     }
+
+    @Test
+    public void testFizzBuzz() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        Assert.assertEquals("FizzBuzz", fizzBuzz.convert(15));
+    }
 }
