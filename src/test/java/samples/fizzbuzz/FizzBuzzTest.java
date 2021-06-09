@@ -8,5 +8,6 @@ public class FizzBuzzTest {
     public void testNumbers() {
         FizzBuzz fizzBuzz = new FizzBuzz();
         Assert.assertEquals("1", fizzBuzz.convert(1));
+        Assert.assertEquals("2", fizzBuzz.convert(2));
     }
 }
